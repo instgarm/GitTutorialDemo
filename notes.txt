@@ -2,7 +2,8 @@ git diff hota hay staging area ko working dir say ompare krta hay
 
 git diff --staged //last commit say pehle kia changes thi
 git checkout -f //pichla commit mai jana hay tou ye command use kro
-
+git remote add origin https://github.com/talha0900/GitTutorialDemo.git
+git remote -v //shwo urls wher eto push or pull code
 git diff --staged ====> Compare previous commit to recent staging area .
 git log --pretty=oneline
 git checkout -- second.txt // rollback previous changes after commiting
